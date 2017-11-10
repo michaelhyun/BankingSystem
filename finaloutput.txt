@@ -1,0 +1,80 @@
+:: PROGRAM START
+:: TEST - CONNECTING TO DATABASE
+:: TEST - SUCCESSFULLY CONNECTED TO DATABASE
+
+:: CREATE NEW CUSTOMER - RUNNING
+:: CREATE NEW CUSTOMER - SUCCESS
+
+:: CREATE NEW CUSTOMER - RUNNING
+:: CREATE NEW CUSTOMER - SUCCESS
+
+:: CREATE NEW CUSTOMER - RUNNING
+:: CREATE NEW CUSTOMER - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number        Balance
+--------    ---------
+      1000          10
+      1001         100
+_____________________
+
+TOTAL:  110
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: REPORT A - RUNNING
+    ID         Name   Gender Age       Pin     Total
+----------- ---------- ---- ----       ----    -----
+       102       Misty   F   18       6023        500
+       100         Ash   M   10       1010        110
+       101     Pikachu   M   25         25         25
+:: REPORT A - SUCCESS
+
+:: DEPOSIT - RUNNING
+:: DEPOSIT - SUCCESS
+
+:: WITHDRAW - RUNNING
+:: WITHDRAW - SUCCESS
+
+:: TRANSFER - RUNNING
+:: TRANSFER - SUCCESS
+
+:: CLOSE ACCOUNT - RUNNING
+:: CLOSE ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number        Balance
+--------    ---------
+      1000         310
+      1001           0
+_____________________
+
+TOTAL:  310
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: REPORT A - RUNNING
+    ID         Name   Gender Age       Pin     Total
+----------- ---------- ---- ----       ----    -----
+       102       Misty   F   18       6023        500
+       100         Ash   M   10       1010        310
+       101     Pikachu   M   25         25         25
+:: REPORT A - SUCCESS
+
+:: REPORT B - RUNNING
+AVERAGE
+-------
+  262
+:: REPORT B - SUCCESS
+
+Exiting program
